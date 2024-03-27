@@ -26,7 +26,7 @@ const Items = [
 ]
 export const Navbar: React.FC = () => {
   return (
-    <nav className="flex items-center justify-between py-2 px-4">
+    <nav className="flex items-center justify-between py-2 px-4 sticky">
       <Brand />
       <div className="flex items-center justify-center gap-12 ">
         {
@@ -40,7 +40,7 @@ export const Navbar: React.FC = () => {
           ))
         }
       </div>
-      <Button />
+      <Button dark text="Iniciar sesion" />
     </nav>
   )
 }

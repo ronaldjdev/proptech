@@ -1,7 +1,8 @@
-import { Hero } from "@/components/Hero";
-import { HowWork } from "@/components/HowWork";
-import { Team } from "@/components/Team";
-import { Welcome } from "@/components/Welcome";
+import { Hero } from "@/components/sections/Hero";
+import { HowWork } from "@/components/sections/HowWork";
+import { Team } from "@/components/sections/Team";
+import { Testimonial } from "@/components/sections/Testimonial";
+import { Welcome } from "@/components/sections/Welcome";
 export default function Home() {
   return (
     <>
@@ -10,6 +11,7 @@ export default function Home() {
         <Welcome />
         <HowWork />
         <Team />
+        <Testimonial/>
       </main>
     </>
   );

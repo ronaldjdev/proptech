@@ -1,6 +1,6 @@
-import { CardHowWork } from "./CardHowWork"
-import { Section } from "./Section"
-import { Title } from "./Title"
+import { CardHowWork } from "../cards/CardHowWork"
+import { Section } from "../Section"
+import { Title } from "../Title"
 
 const itemsHowWork = [
   {
@@ -38,7 +38,6 @@ export const HowWork = () => {
   return (
     <>
       <Section>
-        <div className="flex flex-col w-full h-full ">
           <Title title="¿Cómo funciona?" subtitle="Prospekt" />
           <div className="flex w-full justify-center gap-4 flex-wrap mt-10">
             {
@@ -56,7 +55,6 @@ export const HowWork = () => {
               ))
             }
           </div>
-        </div>
       </Section>
     </>
   )

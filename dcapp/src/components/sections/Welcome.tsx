@@ -1,13 +1,13 @@
-import { Button } from "./Button"
-
-import { Section } from "./Section"
-import { Title } from "./Title"
+import { Button } from "../Button"
+import { Section } from "../Section"
+import { Title } from "../Title"
 export const Welcome = () => {
   return (
     <>
       <Section>
+        <div className="flex">
         <div className="flex flex-col w-full">
-          <Title title="Bienvenidos a" subtitle="Prospekt"/>
+          <Title title="Bienvenidos a" subtitle="Prospekt" />
           <div className="flex gap-4 my-10">
             <div className="w-52 h-52 bg-lime-300 rounded-2xl"></div>
             <div className="w-52 h-52 bg-lime-300 rounded-2xl"></div>
@@ -16,7 +16,6 @@ export const Welcome = () => {
             <strong>Prospekt</strong> ofrece una forma innovadora y colaborativa de aprovechar
             el potencial de los terrenos vacíos, beneficiando a propietarios,
             inversores y comunidades por igual.
-            <br />
             <br />
             <br />
 
@@ -34,6 +33,7 @@ export const Welcome = () => {
             </h2>
           </div>
           <div className="w-1/2 h-full bg-lime-300 rounded-2xl"></div>
+        </div>
         </div>
       </Section>
     </>

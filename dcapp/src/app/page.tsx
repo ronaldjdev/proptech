@@ -1,3 +1,4 @@
+import { Contact } from "@/components/sections/Contact";
 import { Hero } from "@/components/sections/Hero";
 import { HowWork } from "@/components/sections/HowWork";
 import { Team } from "@/components/sections/Team";
@@ -11,7 +12,8 @@ export default function Home() {
         <Welcome />
         <HowWork />
         <Team />
-        <Testimonial/>
+        <Testimonial />
+        <Contact />
       </main>
     </>
   );

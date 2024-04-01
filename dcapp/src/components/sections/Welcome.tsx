@@ -4,7 +4,7 @@ import { Title } from "../Title"
 export const Welcome = () => {
   return (
     <>
-      <Section>
+      <Section id="projects">
         <div className="flex">
         <div className="flex flex-col w-full">
           <Title title="Bienvenidos a" subtitle="Prospekt" />

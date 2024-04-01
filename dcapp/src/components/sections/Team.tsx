@@ -7,7 +7,7 @@ import { profesionales } from "../../libs/profesionales"
 export const Team = () => {
   return (
     <>
-      <Section>
+      <Section id="team">
         {/*<div className="flex flex-col w-full h-full "> */}
           <Title title="Nuestro" subtitle="Equipo" />
           <div className="flex w-full justify-center flex-wrap mt-10">

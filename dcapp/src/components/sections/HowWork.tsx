@@ -6,7 +6,7 @@ import { Title } from "../Title"
 export const HowWork = () => {
   return (
     <>
-      <Section>
+      <Section id="how_work">
         <Title title="¿Cómo funciona?" subtitle="Prospekt" />
         <div className="flex w-full justify-center gap-4 flex-wrap mt-10">
           {

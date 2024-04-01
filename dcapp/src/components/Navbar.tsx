@@ -1,10 +1,10 @@
-import { Button } from "../Button"
-import { Brand } from "../Brand"
+import { Button } from "./Button"
+import { Brand } from "./Brand"
 import { itemsNav } from "@/libs/profesionales"
 
 export const Navbar: React.FC = () => {
   return (
-    <nav className="flex items-center justify-between py-2 px-4 sticky">
+    <nav className="flex items-center justify-between py-2 px-4 sticky top-0 bg-white">
       <Brand />
       <div className="flex items-center justify-center gap-12 ">
         {

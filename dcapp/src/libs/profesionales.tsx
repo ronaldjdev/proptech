@@ -30,28 +30,51 @@ export let profesionales = [
     score: "★★★★",
     create: "2022-01-02"
   }
-]; export const itemsNav = [
+];
+export const itemsNav = [
   {
     name: "Proyectos",
-    path: "/projects"
-  },
-  {
-    name: "Comprar",
-    path: "/purchase"
+    path: "#projects"
   },
   {
     name: "Acerca",
-    path: "/about"
+    path: "#how_work"
   },
   {
-    name: "Prosmeter",
-    path: "/prosmeter"
+    name: "Equipo",
+    path: "#team"
   },
   {
-    name: "Invertir",
-    path: "/invest"
+    name: "Testimonios",
+    path: "#testimonials"
+  },
+  {
+    name: "Contacto",
+    path: "#contact"
   }
 ];
+// export const itemsNav = [
+//   {
+//     name: "Proyectos",
+//     path: "/projects"
+//   },
+//   {
+//     name: "Comprar",
+//     path: "/purchase"
+//   },
+//   {
+//     name: "Acerca",
+//     path: "/about"
+//   },
+//   {
+//     name: "Prosmeter",
+//     path: "/prosmeter"
+//   },
+//   {
+//     name: "Invertir",
+//     path: "/invest"
+//   }
+// ];
 export const itemsHowWork = [
   {
     icon: "🧭",

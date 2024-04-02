@@ -4,7 +4,7 @@ import { itemsNav } from "@/libs/profesionales"
 
 export const Navbar: React.FC = () => {
   return (
-    <nav className="flex items-center justify-between py-2 px-4 sticky top-0 bg-white">
+    <nav className="flex items-center justify-between py-2 px-4 sticky z-10 top-0 bg-white">
       <Brand />
       <div className="flex items-center justify-center gap-12 ">
         {

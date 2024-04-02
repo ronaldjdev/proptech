@@ -5,3 +5,14 @@
 :root {
 	box-sizing: border-box;
 }
+
+/* .remove-bg {
+	filter: brghtness(1.1);
+	mix-blend-mode: multiply;
+} */
+.remove-bg {
+	/* filter: brightness(1.1); Ajusta el brillo según sea necesario */
+	mix-blend-mode: darken; /* Puedes experimentar con diferentes modos de mezcla */
+}
+
+

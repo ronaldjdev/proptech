@@ -1,3 +1,10 @@
+import roadmap from "@/assets/gifs/roadmap.gif"
+import value from "@/assets/gifs/value.gif"
+import way from "@/assets/gifs/way.gif"
+import skyline from "@/assets/gifs/skyline.gif"
+import moneyBag from "@/assets/gifs/money-bag.gif"
+import growing from "@/assets/gifs/growing.gif"
+import society from "@/assets/gifs/society.gif"
 
 export let profesionales = [
   {
@@ -77,32 +84,32 @@ export const itemsNav = [
 // ];
 export const itemsHowWork = [
   {
-    icon: "🧭",
+    icon: way,
     title: "Registra tu Terreno",
     subtitle: "¡Haz que tu terreno cuente! Regístralo en nuestra plataforma y comienza a explorar las oportunidades."
   },
   {
-    icon: "📦",
+    icon: skyline,
     title: "Explotar Potencial",
     subtitle: "Descubrimos proyectos inmobiliarios emocionantes que se ajusten a las características de tu terreno."
   },
   {
-    icon: "🧭",
+    icon: growing,
     title: "Invierte con Nosotros",
     subtitle: "Participa en proyectos inmobiliarios sin la necesidad de involucrarte en el proceso de diseño y desarrollo."
   },
   {
-    icon: "📦",
+    icon: moneyBag,
     title: "Ganancias Garantizadas",
     subtitle: "Obtén una parte justa de las ganancias una vez que el proyecto esté en marcha, sin preocuparte por los detalles técnicos."
   },
   {
-    icon: "🧭",
+    icon: roadmap,
     title: "Sigue el Progreso",
     subtitle: "Mantente al tanto del progreso del proyecto y recibe actualizaciones regulares sobre tus inversiones"
   },
   {
-    icon: "📦",
+    icon: society,
     title: "Únete a Nuestra Comunidad",
     subtitle: "Participa en nuestra comunidad de inversores y comparte ideas con otros miembros."
   }

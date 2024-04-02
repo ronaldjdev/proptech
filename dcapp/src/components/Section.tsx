@@ -1,12 +1,13 @@
 interface Props {
   children: React.ReactNode
+  id: string
 }
-export const Section = ({ children }: Props) => {
+export const Section = ({ children, id }: Partial<Props>) => {
   return (
     <>
-      <div className=" flex w-full p-16">
+      <section id={id} className=" flex w-full p-16 flex-col">
         {children}
-      </div>
+      </section>
     </>
   )
 }

@@ -1,9 +1,10 @@
+import Image from "next/image"
 interface Props {
   name: string
   score: string
   create: string
   content: string
-  image: string
+  image: string | any
 }
 
 export const CardTestimonial = ({ name, score, create, content, image }: Partial<Props>) => {
@@ -11,7 +12,7 @@ export const CardTestimonial = ({ name, score, create, content, image }: Partial
     <div className="bg-gray-300 w-[450px] h-40 rounded-2xl p-4 overflow-hidden">
       <div className="flex justify-between mb-1">
         <div className="flex gap-1 items-center">
-          <img src={image} alt="" className="rounded-full w-10 h-10 object-cover" />
+          <Image src={image} alt="" className="rounded-full w-10 h-10 object-cover" />
           <div>
             <h2 className="text-base font-bold first-letter:capitalize ">{name}</h2>
             <h2 className="text-base font-bold first-letter:capitalize ">{score}</h2>

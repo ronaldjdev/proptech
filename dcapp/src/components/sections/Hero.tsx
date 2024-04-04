@@ -30,9 +30,9 @@ export const Hero = () => {
           <Image src={img5} alt="" className="bg-gray-500 w-full h-full rounded-2xl"></Image>
         </div>
         <div className="bg-lime-300 w-full h-full rounded-2xl">
-          <div className="flex flex-col justify-between items-end w-full h-full p-10">
+          <div className="flex flex-col justify-between items-center w-full h-full p-10">
             <p className="text-4xl ">Una nueva forma de vida. Cambia tu manera de vivir la vida.</p>
-            <SubscribeForm />
+            <SubscribeForm size="w-full" />
           </div>
         </div>
       </div>

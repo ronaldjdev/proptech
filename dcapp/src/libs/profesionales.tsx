@@ -84,7 +84,7 @@ export const itemsNav = [
 // ];
 export const itemsHowWork = [
   {
-    icon: way,
+    icon: value,
     title: "Registra tu Terreno",
     subtitle: "¡Haz que tu terreno cuente! Regístralo en nuestra plataforma y comienza a explorar las oportunidades."
   },

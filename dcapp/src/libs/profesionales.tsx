@@ -8,35 +8,38 @@ import society from "@/assets/gifs/society.gif"
 
 export let profesionales = [
   {
-    nivel: "Inmobiliaria",
-    specialty: "Inmobiliaria en la actualidad",
-    profesion: "Inmobiliaria",
+    nivel: "Maestría",
+    specialty: "Urbanismo y paisaje sonoro",
+    profesion: "Arquitecto",
     name: "Juan Camacho",
     image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     score: "★★★★★",
     create: "2022-01-01"
-  },
-  {
-    nivel: "Inmobiliaria",
-    specialty: "Inmobiliaria en la actualidad",
-    profesion: "Inmobiliaria",
-    name: "Cristian Camacho",
-    image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    score: "★★★★★",
-    create: "2022-01-03"
-  },
-  {
-    nivel: "Inmobiliaria",
-    specialty: "Inmobiliaria en la actualidad",
-    profesion: "Inmobiliaria",
-    name: "Nicolas Camacho",
-    image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    score: "★★★★",
-    create: "2022-01-02"
   }
+,
+  {
+    nivel: "Doctorado",
+    specialty: "Bioquímica",
+    profesion: "Investigador",
+    name: "María González",
+    image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    content: "Soy un investigador apasionado por la bioquímica y la genética. He dedicado años de mi vida al estudio de la estructura y función de las proteínas.",
+    score: "★★★★☆",
+    create: "2023-05-15"
+  }
+,
+  {
+    nivel: "Licenciatura",
+    specialty: "Diseño Gráfico",
+    profesion: "Diseñador Gráfico",
+    name: "Laura Pérez",
+    image: "https://images.pexels.com/photos/1630890/pexels-photo-1630890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    content: "Me especializo en diseño de identidad visual y branding. Disfruto creando logotipos, tarjetas de visita y otros elementos gráficos para empresas y proyectos.",
+    score: "★★★★★",
+    create: "2022-09-20"
+  }
+
 ];
 export const itemsNav = [
   {

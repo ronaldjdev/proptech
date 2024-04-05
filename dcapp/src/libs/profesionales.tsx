@@ -47,8 +47,8 @@ export const itemsNav = [
     path: "#projects"
   },
   {
-    name: "Acerca",
-    path: "#how_work"
+    name: "¿Cómo funciona?",
+    path: "#how_it_work"
   },
   {
     name: "Equipo",

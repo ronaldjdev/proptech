@@ -118,3 +118,46 @@ export const itemsHowWork = [
   }
 ]
 
+export const linksData = [
+  {
+    title: "Colaborar",
+    links: [
+      { label: "¿Cómo colaborar?", url: "/how-to-collaborate" },
+      { label: "Colabora con nosotros", url: "/collaborate-with-us" },
+      { label: "Prosmeter", url: "/prosmeter" }
+    ]
+  },
+  {
+    title: "Proyectos",
+    links: [
+      { label: "¿Cómo comprar?", url: "/how-to-buy" },
+      { label: "Conocer Proyectos", url: "/know-projects" }
+    ]
+  },
+  {
+    title: "Recursos",
+    links: [
+      { label: "Blog", url: "/blog" },
+      { label: "Inversionistas", url: "/investors" },
+      { label: "Agentes Inmoviliarios", url: "/real-estate-agents" },
+      { label: "Ingreso o registro", url: "/sign-in-sign-up" }
+    ]
+  },
+  {
+    title: "Sobre Nosotros",
+    links: [
+      { label: "La empresa", url: "/the-company" },
+      { label: "Centro de ayuda", url: "/help-center" },
+      { label: "Nuestro equipo", url: "/our-team" },
+      { label: "Trabaja con nosotros", url: "/work-with-us" }
+    ]
+  },
+  {
+    title: "Soporte",
+    links: [
+      { label: "Dudas o comentarios", url: "/questions-comments" },
+      { label: "Correo", url: "/email" },
+      { label: "Whatsapp", url: "/whatsapp" }
+    ]
+  }
+];

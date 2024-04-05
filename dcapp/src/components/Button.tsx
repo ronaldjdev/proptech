@@ -6,7 +6,7 @@ interface Props {
   size: string
 }
 export const Button = ({ dark, white, text, icon, size }: Partial<Props>) => {
-  let classes = `py-2 px-6 rounded-full font-sans transition-colors duration-300 ease-in-out border border-zinc-900 ${size ? size : "w-fit"}`
+  let classes = `py-2 px-6 rounded-full font-sans transition-colors duration-300 ease-in-out border border-zinc-900 h-10 inline-block justify-center ${size ? size : "w-fit"}`
 
 
   if (white) {

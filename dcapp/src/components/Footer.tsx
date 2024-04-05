@@ -5,8 +5,8 @@ export const Footer = () => {
 
   return (
     <footer className="w-full h-auto">
-      <div className="flex flex-col gap-10 h-full items-center justify-center p-10 bg-lime-300 w-full">
-        <div className="flex w-full justify-center">
+      <div className="flex flex-col gap-10 h-full items-center justify-center py-10 px-52 bg-lime-300 w-full">
+        <div className="flex w-full justify-between ">
           <div className="w-1/2 flex flex-col justify-center gap-5">
             <div className="w-full flex">
               <Brand />

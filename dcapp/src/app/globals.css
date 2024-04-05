@@ -3,12 +3,16 @@
 @tailwind utilities;
 
 :root {
-	box-sizing: border-box;
+	box-sizing: border-box;	
+	display: flex;
+	flex-direction: column;
 }
 
+body {
+
+width: 100%;
+}
 .remove-bg {
 	filter: brghtness(1.1);
 	mix-blend-mode: multiply;
 }
-
-

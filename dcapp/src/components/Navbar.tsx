@@ -21,10 +21,10 @@ export const Navbar: React.FC = () => {
     };
   }, []);
   return (
-    <nav className={` ${scrolled ? 'border-b-2 shadow-md transition-shadow duration-300 ease-in-out' : ''} w-full flex items-center justify-center py-2 px-4 sticky z-10 top-0 bg-white ${scrolled ? 'border-b-2 border-gray-300' : ''} `}>
+    <nav className={` ${scrolled ? 'border-b-2 shadow-md transition-shadow duration-300 ease-in-out' : ''}  w-full flex items-center justify-center py-2 px-4 sticky z-10 top-0 bg-white ${scrolled ? 'border-b-2 border-gray-300' : ''} `}>
       <div className="max-w-[1970px] flex items-center justify-between w-full ">
       <Brand />
-      <div className="flex items-center justify-center gap-12 ">
+      <div className="hidden md:flex items-center justify-center gap-12 ">
         {
           itemsNav.map((item) => (
             <a

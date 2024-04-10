@@ -9,17 +9,15 @@ export const HowWork = () => {
     <>
       <Section id="how_it_work">
         <Title title="¿Cómo funciona?" subtitle="Prospekt" />
-        <div className="flex w-full justify-center gap-4 flex-wrap mt-10">
+        <div className="w-full mt-10 grid grid-cols-1 md:grid-cols-2 gap-4">
           {
             itemsHowWork.map((item: any, index: number) => (
-              <div key={index} className="w-[590px]">
-                <div className="flex items-center justify-center bg-lime-300 w-full h-48 gap-4 p-4 rounded-2xl">
+              <div key={index} className=" flex items-center justify-center bg-lime-300 w-full h-auto md:h-48 gap-4 p-4 rounded-2xl">
                   <CardHowWork
                     icon={item.icon}
                     title={item.title}
-                    subtitle={item.subtitle}
+                    content={item.subtitle}
                   />
-                </div>
               </div>
             ))
           }

@@ -33,7 +33,7 @@ export const Team = () => {
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(index)}
               >
-                <CardProfesionTeam {...item} />
+                <CardProfesionTeam selected={hoveredIndex === index} {...item} />
               </div>
               )
             }

@@ -14,7 +14,7 @@ export const Welcome = () => {
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-col w-full">
             <Title title="Bienvenidos a" subtitle="Prospekt" />
-            <div className="flex gap-4 my-10 items-end">
+            <div className="flex gap-4 my-10 items-end overflow-x-auto overflow-hidden">
               <Image src={img3} alt="edificio" width={0} height={0} className="w-52 h-52 rounded-2xl" />
               <Image src={img6} alt="edificio" width={0} height={0} className="w-52 h-52 rounded-2xl" />
               <h2 className="capitalize text-base">Proyecto:
